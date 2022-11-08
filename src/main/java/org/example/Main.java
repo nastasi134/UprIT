@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Напиши щось цікаве\n");
+        System.out.println("Напиши щось цікаве");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println(Spain(name));
